@@ -1,0 +1,15 @@
+<div id="wrap_content">
+    <h3>Add Rental</h3>
+        <p><label>Title</label>
+            {{input type="text" value=model.title}}</p>
+        <p><label>Owner</label>
+            {{input type="text" value=model.owner}}</p>
+        <p><label>City</label>
+            {{input type="text" value=model.city}}</p>
+        <p><label>No. of rooms</label>
+            {{input type="number" value=model.bedrooms}}</p>
+        <button {{action 'save' model}}>Save</button>
+    {{#each model as |rentalUnit|}}
+        {{rentals-form rental=rentalUnit}}
+    {{/each}}
+</div>

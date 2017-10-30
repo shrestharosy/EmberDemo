@@ -1,0 +1,6 @@
+{
+  "name": "authentication-demo",
+  "dependencies": {
+    "sweetalert": "~1.1.0"
+  }
+}

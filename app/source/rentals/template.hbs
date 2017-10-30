@@ -1,0 +1,8 @@
+<div id="wrap_content">
+  <h2>welcome to rentals page!</h2>
+  <p>We hope you find exactly what you're looking for in a place to stay.</p>
+
+{{#each model as |rentalUnit|}}
+  {{rental-listing rental=rentalUnit}}
+{{/each}}
+</div>

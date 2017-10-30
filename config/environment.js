@@ -4,6 +4,7 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'authentication-demo',
+    podModulePrefix: 'authentication-demo/source',
     environment,
     rootURL: '/',
     locationType: 'auto',
